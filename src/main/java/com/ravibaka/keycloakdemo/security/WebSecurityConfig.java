@@ -9,6 +9,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * @Author Ravi Baka
+ * WebSecurityConfig class to configure security
+ */
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor

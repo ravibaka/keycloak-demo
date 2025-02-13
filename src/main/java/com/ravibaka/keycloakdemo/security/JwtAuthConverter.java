@@ -16,6 +16,10 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * @Author Ravi Baka
+ * Converter class to convert Jwt to AbstractAuthenticationToken
+ */
 @Component
 public class JwtAuthConverter implements Converter<Jwt, AbstractAuthenticationToken> {
 

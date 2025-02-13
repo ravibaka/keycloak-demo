@@ -1,3 +1,5 @@
+# This file is used to configure the application properties.
+# The server port is set to 8085. The issuer-uri and jwk-set-uri are set to the Keycloak server URL.
 server:
   port: 8085
 
